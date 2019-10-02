@@ -15,4 +15,5 @@ The legend of below figure is:
 1. Red: buy
 2. Green: sell
 3. Blue: hold
+
 ![Trading Diagram](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
