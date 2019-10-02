@@ -17,3 +17,6 @@ The legend of below figure is:
 3. Blue: hold
 
 ![Trading Diagram](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
+
+
+We post the data because we would like to hear more exciting data that other algorithm could reach. Feel free to post here.
