@@ -9,6 +9,9 @@ The full data is from 20080401 to 20190530, and the total data number is 2562:
 
 The simple buy and hold strategy profit is 55.67%. 
 
-We use a machine learning mechanism to do trading, and got profit of 76.94%.
+We use a machine learning mechanism to do trading, and got profit of 76.94%. The legend of below figure:
+1. Red: buy
+2. Green: sell
+3. Blue: hold
 
-![Trading Diagram]()
+![Trading Diagram](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
