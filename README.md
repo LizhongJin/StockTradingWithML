@@ -8,3 +8,7 @@ The full data is from 20080401 to 20190530, and the total data number is 2562:
 3. data from 2543 to 2562 is for reserve purpose
 
 The simple buy and hold strategy profit is 55.67%. 
+
+We use a machine learning mechanism to do trading, and got profit of 76.94%.
+
+![Trading Diagram]()
