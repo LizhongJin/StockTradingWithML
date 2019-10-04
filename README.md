@@ -1,5 +1,5 @@
 # StockTradingWithML
-This repository is trying to do Stock Trading prediction with Machine Learning Algorithm. This is different with stock closing price prediction, and I do not focus on closing price prediction because it would be impossible to predict the price because of the marketing inefficiency. And even you got not much perfect predicted closing price, there would not be much help for trading especially in a market with T+1 trading rule.
+This repository is trying to do Stock Trading prediction with Machine Learning Algorithm. This is different with stock closing price prediction, and we do not focus on closing price prediction because it would be impossible to predict the price because of the marketing inefficiency. And even you got not much perfect predicted closing price, there would not be much help for trading especially in a market with T+1 trading rule.
 
 In this project, we setup a benchmark stock data with China "pingan" stock with number "601318". Refer https://github.com/waditu/Tushare to get the stock data.
 The full data is from 20080401 to 20190530, and the total data number is 2562:
