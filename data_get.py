@@ -4,6 +4,11 @@ import math
 import talib as ta
 import pandas as pd
 import matplotlib.pyplot as plt
+import tushare as ts
+
+token=xxx #here is your tushare token, register tushare to get
+ts.set_token(token)
+pro=ts.pro_api()
 
 def featureExt(data_input=None):
   open    = data_input['open'].values.astype(np.float64)
@@ -64,8 +69,14 @@ def featureExt(data_input=None):
 def get_data_frame(stock_name, start_date, end_date):
   """Parameter"""
   write_csv = "source/"+stock_name+"_"+start_date+"_"+end_date+".csv"
-  data_frame = pd.read_csv(write_csv)
-  data_frame = data_frame.iloc[:,1:]
+  try:
+    tushare_frame = pd.read_csv(write_csv)
+    tushare_frame = tushare_frame.iloc[:,1:]
+    print("Successfully read stock data from source "+write_csv)
+  except:
+    """ get data from tushare """
+    tushare_frame = pro.daily(ts_code=stock_name+'.SH', start_date=start_date, end_date=end_date)
+    tushare_frame.to_csv(write_csv)
   data_frame = data_frame.sort_index(axis=0, ascending=False)
   ext_frame  = featureExt(data_frame)
   """
