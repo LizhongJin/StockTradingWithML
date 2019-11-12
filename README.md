@@ -17,7 +17,10 @@ The legend of below figure is:
 2. Green: sell
 3. Blue: hold
 
+Trading Diagram of KNN
 ![Trading Diagram of KNN](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
+
+Trading Diagram of LSTM
 ![Trading Diagram of LSTM](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_2.PNG)
 
 Our model is briefly depected as below. We combine the KNN and LSTM model to get a quite good result.
