@@ -7,16 +7,18 @@ The full data is from 20080401 to 20190530, and the total data number is 2562:
 2. validation data is 2342~2542
 3. data from 2543 to 2562 is for reserve purpose
 
-The simple buy and hold strategy profit is 55.67%. 
-
-We use a machine learning mechanism to do trading, and get the profit of 76.94%. 
+The summarization is as below:
+1. The simple buy and hold strategy profit is 55.67%. 
+2. The KNN and prior probablity get profit of 76.94%. 
+3. The KNN + LSTM + prior probablity get profit of 95.7%. 
 
 The legend of below figure is:
 1. Red: buy
 2. Green: sell
 3. Blue: hold
 
-![Trading Diagram](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
+![Trading Diagram of KNN](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
+![Trading Diagram of LSTM](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_2.png)
 
-
-We post the data because we would like to hear more exciting data that other algorithm could reach. Feel free to post here.
+Our model is briefly depected as below. We combine the KNN and LSTM model to get a quite good result.
+![Model](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/model.png)
