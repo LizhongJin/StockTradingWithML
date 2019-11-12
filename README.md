@@ -20,8 +20,12 @@ The legend of below figure is:
 Trading Diagram of KNN
 ![Trading Diagram of KNN](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_1.png)
 
+
+
 Trading Diagram of LSTM
 ![Trading Diagram of LSTM](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/trading_2.PNG)
 
-Our model is briefly depected as below. We combine the KNN and LSTM model to get a quite good result.
+
+
+Our model is briefly depected as below. We combine the KNN and LSTM model to get a quite good result. The trading result will be buy/sell/hold.
 ![Model](https://github.com/LizhongJin/StockTradingWithML/blob/master/images/model.PNG)
